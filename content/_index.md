@@ -1,4 +1,6 @@
-I am a Research Engineer at ASUS Singapore. I received both my M.S. and B.S. in Computer Science and Information Engineering from National Taiwan University, where I worked with [Prof. Hsuan-Tien Lin](https://www.csie.ntu.edu.tw/~htlin/) and [Prof. Kuan-Hao Huang](https://khhuang.me). My research focuses on developing trustworthy NLP and Multimodal Models.
+I am a Research Engineer at ASUS Singapore.
+I received both my M.S. and B.S. in Computer Science and Information Engineering from National Taiwan University, where I worked with [Prof. Hsuan-Tien Lin](https://www.csie.ntu.edu.tw/~htlin/) and [Prof. Kuan-Hao Huang](https://khhuang.me).
+My research focuses on developing trustworthy NLP and multimodal models by addressing challenges in robustness and interpretability.
 
 Reach me at: `${firstname}_${lastname}@asus.com`
 
