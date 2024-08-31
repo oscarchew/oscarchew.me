@@ -1,0 +1,23 @@
+disabled = false
+languageCode = "en"
+languageName = "English"
+weight = 1
+title = "Oscar Chew"
+
+[params]
+displayName = "EN"
+isoCode = "en"
+rtl = false
+dateFormat = "2 January 2006"
+
+[params.author]
+name = "Oscar Chew"
+headline = "Machine Learning Engineer"
+image = "profile.jpeg"
+# bio = "A little bit about you"
+links = [
+    { email = "oscar_chew@asus.com" },
+    { google = "https://scholar.google.com/citations?user=3vTALOQAAAAJ" },
+    { github = "https://github.com/oscarchew" },
+    { linkedin = "https://www.linkedin.com/in/oscar-chew/" },
+]
