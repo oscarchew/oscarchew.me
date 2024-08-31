@@ -26,5 +26,5 @@ Work Experience
 Professional Services
 ---
 <div style="text-align: left">
-<b>Journal reviewer</b>: IEEE/ACM ansactions on Audio, Speech, and Language Processing
+<b>Journal reviewer</b>: IEEE/ACM Transactions on Audio, Speech, and Language Processing
 </div>
