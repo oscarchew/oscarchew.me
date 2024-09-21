@@ -9,7 +9,7 @@ layout: "simple"
 
 2024
 ---
-[Defending Text-to-image Diffusion Models: Surprising Efficacy of Textual Perturbations Against Backdoor Attacks](https://www.arxiv.org/abs/2408.15721)\
+[Defending Text-to-image Diffusion Models: Surprising Efficacy of Textual Perturbations Against Backdoor Attacks](https://openreview.net/forum?id=8g2PejwZi6)\
 **Oscar Chew**\\(^\*\\), Po-Yi Lu\\(^\*\\), Jayden Lin, Hsuan-Tien Lin\
 **ECCV 2024 Workshop** on The Dark Side of Generative AIs and Beyond
 
