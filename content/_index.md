@@ -9,8 +9,8 @@ Reach me at: `${firstname}_${lastname}@asus.com`
 Education
 ---
 <div style="text-align: left">
-<b>M.S. in Computer Science and Information Engineering</b>, National Taiwan University <br>
-<b>B.S. in Computer Science and Information Engineering</b>, National Taiwan University
+<b>M.S.</b>, Computer Science and Information Engineering, National Taiwan University <br>
+<b>B.S.</b>, Computer Science and Information Engineering, National Taiwan University
 </div>
 
 ---
@@ -19,7 +19,7 @@ Work Experience
 ---
 <div style="text-align: left">
 <b>Research Engineer</b>, ASUS, Nov. 2023 - Present <br>
-<b>Research Intern</b>, Chinese University of Hong Kong, Jun. 2023 - Aug. 2023 <br>
+<b>Research Intern</b>, The Chinese University of Hong Kong, Jun. 2023 - Aug. 2023 <br>
 <b>Machine Learning Engineer Intern</b>, Jubo Health, Jul. 2022 - Sep. 2022
 </div>
 
