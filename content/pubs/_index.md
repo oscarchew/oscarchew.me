@@ -5,7 +5,7 @@ layout: "simple"
 ---
 {{< katex >}}
 
-> \\(^\*\\) denotes equal contributions.
+> \\(^\*\\) indicates equal contributions.
 
 2024
 ---
