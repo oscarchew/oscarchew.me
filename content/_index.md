@@ -7,9 +7,10 @@ Reach me at: `${firstname}_${lastname}@asus.com`
 
 <!-- News
 ---
-<div style="text-align: left">
 
-<b> Mar 2025: </b> I will start my Ph.D. at the [FLAIR Lab](https://khhuang.me/group.html) at TAMU this fall! <br>
+<div style="text-align: left; height: 50px; overflow-y: scroll; scrollbar-width: thin;">
+
+<b> Mar 2025: </b> I will be starting my PhD at the [FLAIR Lab](https://khhuang.me/group.html), Texas A&M University this fall! <br>
 
 </div>
 
@@ -39,5 +40,6 @@ Work Experience
 Professional Services
 ---
 <div style="text-align: left">
-<b>Journal reviewer</b>: IEEE/ACM Transactions on Audio, Speech, and Language Processing
+<b>Journal reviewer</b>: IEEE/ACM Transactions on Audio, Speech, and Language Processing <br>
+<b>Conference reviewer</b>: ACL Rolling Review
 </div>
