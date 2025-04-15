@@ -29,7 +29,7 @@ Work Experience
 ---
 <div style="text-align: left">
 
-<b>Research Engineer</b>, ASUS, Nov 2023 - Present <br>
+<b>Research Engineer</b>, ASUS Singapore, Nov 2023 - Present <br>
 <b>Research Intern</b>, The Chinese University of Hong Kong, Jun 2023 - Aug 2023 <br>
 <b>Machine Learning Engineer Intern</b>, Jubo Health, Jul 2022 - Sep 2022
 
