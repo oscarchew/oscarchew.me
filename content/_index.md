@@ -8,11 +8,23 @@ Reach me at: `${firstname}_${lastname}@asus.com`
 <!-- News
 ---
 
-<div style="text-align: left; height: 50px; overflow-y: scroll; scrollbar-width: thin;">
+<div style="text-align: left">
 
 <b> Mar 2025: </b> I will be starting my PhD at the [FLAIR Lab](https://khhuang.me/group.html), Texas A&M University this fall! <br>
 
 </div>
+
+
+<details>
+  <summary>Show more</summary>
+  <div style="text-align: left; height: 100px; overflow-y: scroll; scrollbar-width: thin;">
+
+  <b> Dec 2024: </b> Created this website. 😎 <br>
+  <b> Dec 2024: </b> Created this website. 😎 <br>
+  <b> Dec 2024: </b> Created this website. 😎 <br>
+
+  </div>
+</details>
 
 --- -->
 
@@ -20,8 +32,8 @@ Education
 ---
 <div style="text-align: left">
     <!-- <b>Ph.D.</b>, Computer Science, Texas A&M University, Aug 2025 - Present <br> -->
-    <b>M.S.</b>, Computer Science & Information Engineering, National Taiwan University, Sep 2021 - Jun 2023 <br>
-    <b>B.S.</b>, Computer Science & Information Engineering, National Taiwan University, Sep 2017 - Jun 2021
+    <b>M.S.</b>, Computer Science and Information Engineering, National Taiwan University, Sep 2021 - Jun 2023 <br>
+    <b>B.S.</b>, Computer Science and Information Engineering, National Taiwan University, Sep 2017 - Jun 2021
 </div>
 
 ---
