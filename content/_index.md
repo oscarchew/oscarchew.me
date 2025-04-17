@@ -1,5 +1,5 @@
 Hi there! I am a Research Engineer at ASUS Singapore. My research focuses on developing trustworthy NLP and multimodal models by addressing challenges in robustness and interpretability.
-I received both my M.S. and B.S. in Computer Science from National Taiwan University, where I worked with [Prof. Hsuan-Tien Lin](https://www.csie.ntu.edu.tw/~htlin/) and [Prof. Kuan-Hao Huang](https://khhuang.me).
+I received both my M.S. and B.S. in Computer Science and Information Engineering from National Taiwan University, where I worked with [Prof. Hsuan-Tien Lin](https://www.csie.ntu.edu.tw/~htlin/) and [Prof. Kuan-Hao Huang](https://khhuang.me).
 
 Reach me at: `${firstname}_${lastname}@asus.com`
 
@@ -19,8 +19,9 @@ Reach me at: `${firstname}_${lastname}@asus.com`
 Education
 ---
 <div style="text-align: left">
-<b>M.S. in Computer Science</b>, National Taiwan University, Sep 2021 - Jun 2023 <br>
-<b>B.S. in Computer Science</b>, National Taiwan University, Sep 2017 - Jun 2021
+    <!-- <b>Ph.D.</b>, Computer Science, Texas A&M University, Aug 2025 - Present <br> -->
+    <b>M.S.</b>, Computer Science & Information Engineering, National Taiwan University, Sep 2021 - Jun 2023 <br>
+    <b>B.S.</b>, Computer Science & Information Engineering, National Taiwan University, Sep 2017 - Jun 2021
 </div>
 
 ---
