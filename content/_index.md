@@ -5,16 +5,16 @@ Reach me at: `${firstname}_${lastname}@asus.com`
 
 ---
 
-<!-- News
+News
 ---
 
 <div style="text-align: left">
 
-<b> Mar 2025: </b> I will be starting my PhD at the [FLAIR Lab](https://khhuang.me/group.html), Texas A&M University this fall! <br>
+<b> Mar 2025: </b> I will be starting my Ph.D. at the [FLAIR Lab](https://khhuang.me/group.html), Texas A&M University this fall! <br>
 
 </div>
 
-
+<!--
 <details>
   <summary>Show more</summary>
   <div style="text-align: left; height: 100px; overflow-y: scroll; scrollbar-width: thin;">
@@ -25,8 +25,8 @@ Reach me at: `${firstname}_${lastname}@asus.com`
 
   </div>
 </details>
-
---- -->
+-->
+---
 
 Education
 ---
