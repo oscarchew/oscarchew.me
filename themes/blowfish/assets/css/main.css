@@ -1,10 +1,9 @@
 /*! Blowfish | MIT License | https://github.com/nunocoracao/blowfish */
 
-@import 'components/zen-mode.css';
+@import './components/zen-mode.css';
 
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+@import "tailwindcss";
+@config "../../tailwind.config.js";
 
 body a,
 body button {
@@ -27,19 +26,6 @@ body button {
 #search-query::-webkit-search-results-button,
 #search-query::-webkit-search-results-decoration {
   @apply hidden;
-}
-
-/* Hamburger menu */
-body:has(#menu-controller:checked) {
-  @apply overflow-y-hidden;
-}
-
-#menu-button:has(#menu-controller:checked) {
-  @apply invisible;
-}
-
-#menu-controller:checked~#menu-wrapper {
-  @apply visible opacity-100;
 }
 
 /* RTL support */

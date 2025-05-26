@@ -16,9 +16,11 @@ Il tema viene fornito con una configurazione predefinita che ti consente di esse
 
 {{< alert "fire" >}}
 We just launched a CLI tool to help you get started with Blowfish. It will help you with installation and configuration. Install the CLI tool globally using:
+
 ```bash
 npx blowfish-tools
 ```
+
 {{< /alert >}}
 
 > I file di configurazione forniti con il tema sono forniti in formato TOML dato che questa è la sintassi predefinita di Hugo. Sentiti libero di convertire la tua configurazione in YAML o JSON se lo desideri.
@@ -44,7 +46,7 @@ Tieni presente che i nomi delle variabili forniti in questa tabella utilizzano i
 | `baseURL`                | _Not set_                 | The URL to the root of the website.                                                                                                                                                                                                                                                                                                                                          |
 | `defaultContentLanguage` | `"en"`                    | This value determines the default language of theme components and content. Refer to the [language and i18n](#language-and-i18n) section below for supported language codes.                                                                                                                                                                                                  |
 | `enableRobotsTXT`        | `true`                    | Se abilitato, verrà creato un file "robots.txt" nella radice del sito che consentirà ai motori di ricerca di eseguire la scansione dell'intero sito. Se preferisci fornire il tuo file `robots.txt` predefinito, impostalo su `false` e ​​posiziona il file nella directory `static`. Per un controllo completo, puoi fornire un [layout personalizzato]({{< ref "content-examples#custom-layouts" >}}) per generare questo file. |
-| `paginate`               | `10`                      | Il numero di articoli elencati in ciascuna pagina dell'elenco degli articoli.                                                                                                                                                                                                                                                                                                           |
+| `pagination.pagerSize`   | `10`                      | Il numero di articoli elencati in ciascuna pagina dell'elenco degli articoli.                                                                                                                                                                                                                                                                                                           |
 | `summaryLength`          | `0`                       | Il numero di parole utilizzate per generare il riepilogo dell'articolo quando non ne viene fornita una nella [front matter]({{< ref "front-matter" >}}). Un valore pari a "0" utilizzerà la prima frase. Questo valore non ha effetto quando i riepiloghi sono nascosti.                                                                                                                                |
 | `outputs.home`           | `["HTML", "RSS", "JSON"]` | I formati di output generati per il sito. Blowfish richiede HTML, RSS e JSON affinché tutti i componenti del tema funzionino correttamente.                                                                                                                                                                                                                                         |
 | `permalinks`             | _Not set_                 | Fare riferimento alla [documentazione di Hugo](https://gohugo.io/content-management/urls/#permalinks) per la configurazione del permalink.                                                                                                                                                                                                                                                                 |
@@ -53,7 +55,7 @@ Tieni presente che i nomi delle variabili forniti in questa tabella utilizzano i
 
 ## Thumbnails
 
-Blowfish è stato creato in modo che sia facile aggiungere supporto visivo ai tuoi articoli. Se hai familiarità con la struttura degli articoli di Hugo, devi solo inserire un file immagine (quasi tutti i formati sono supportati ma consigliamo `.png` o `.jpg`) che inizi con `feature*` all'interno della cartella dell'articolo. E questo è tutto, Blowfish sarà quindi in grado di utilizzare l'immagine sia come miniatura all'interno del tuo sito web sia per le schede <a target="_blank" href="https://oembed.com/">oEmbed</a> su piattaforme sociali. 
+Blowfish è stato creato in modo che sia facile aggiungere supporto visivo ai tuoi articoli. Se hai familiarità con la struttura degli articoli di Hugo, devi solo inserire un file immagine (quasi tutti i formati sono supportati ma consigliamo `.png` o `.jpg`) che inizi con `feature*` all'interno della cartella dell'articolo. E questo è tutto, Blowfish sarà quindi in grado di utilizzare l'immagine sia come miniatura all'interno del tuo sito web sia per le schede <a target="_blank" href="https://oembed.com/">oEmbed</a> su piattaforme sociali.
 
 [Qui]({{< ref "thumbnails" >}}) c'è anche una guida con maggiori informazioni e un [esempio]({{< ref "thumbnail_sample" >}}) se vuoi vedere come puoi farlo.
 
@@ -72,6 +74,7 @@ Il tema attualmente supporta le seguenti lingue per impostazione predefinita:
 | Czech                        | `cs`    |
 | German                       | `de`    |
 | English                      | `en`    |
+| Esperanto                    | `eo`    |
 | Spanish (Spain)              | `es`    |
 | Finnish                      | `fi`    |
 | French                       | `fr`    |
@@ -82,6 +85,7 @@ Il tema attualmente supporta le seguenti lingue per impostazione predefinita:
 | Italian                      | `it`    |
 | Japanese                     | `ja`    |
 | Korean                       | `ko`    |
+| Dutch                        | `nl`    |
 | Polish                       | `pl`    |
 | Portuguese (Brazil)          | `pt-br` |
 | Portuguese (Portugal)        | `pt-pt` |
@@ -92,8 +96,6 @@ Il tema attualmente supporta le seguenti lingue per impostazione predefinita:
 | Ukrainian                    | `uk`    |
 | Simplified Chinese (China)   | `zh-cn` |
 | Traditional Chinese (Taiwan) | `zh-tw` |
-
-
 
 Le traduzioni predefinite possono essere sovrascritte creando un file personalizzato in "i18n/[code].yaml" che contiene le stringhe di traduzione. Puoi anche utilizzare questo metodo per aggiungere nuove lingue. Se desideri condividere una nuova traduzione con la community, [apri una richiesta pull](https://github.com/nunocoracao/blowfish/pulls).
 
@@ -106,7 +108,6 @@ Il file predefinito può essere utilizzato come modello per creare lingue aggiun
 {{< alert >}}
 **Nota:** assicurati che il parametro `defaultContentLanguage` nella [configurazione del sito](#site-configuration) corrisponda al codice della lingua nel nome del file di configurazione della lingua.  
 {{< /alert >}}
-
 
 #### Globale
 
@@ -133,10 +134,10 @@ Il file predefinito può essere utilizzato come modello per creare lingue aggiun
 | `params.description`   | _Not set_          | The website description. This will be used in the site metadata.                                                                                                                                                                                                                                                           |
 | `params.copyright`     | _Not set_          | A Markdown string for the site footer copyright message can include the placeholder { year } to dynamically insert the current year. If none is provided, Blowfish will automatically generate a copyright string using the site `title`.                                                                                  |
 
-
 <!-- prettier-ignore-end -->
 
 #### Author
+
 | Name              | Default   | Description                                                                                                                                                                                                                                                                                                                 |
 | ----------------- | --------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | `author.name`     | _Not set_ | The author's name. This will be displayed in article footers, and on the homepage when the profile layout is used.                                                                                                                                                                                                          |
@@ -189,6 +190,7 @@ Many of the article defaults here can be overridden on a per article basis by sp
 | Name            | Default   | Description                                                                                                         |
 | --------------- | --------- | ------------------------------------------------------------------------------------------------------------------- |
 | `header.layout` | `"basic"` | Defines the header for the entire site, supported values are `basic`, `fixed`, `fixed-fill`, and `fixed-fill-blur`. |
+
 ### Footer
 
 | Name                            | Default | Description                                                                                                                                                                                                               |
@@ -198,6 +200,7 @@ Many of the article defaults here can be overridden on a per article basis by sp
 | `footer.showThemeAttribution`   | `true`  | Whether or not to show the "powered by" theme attribution in the site footer. If you choose to disable this message, please consider attributing the theme somewhere else on your site (for example, on your about page). |
 | `footer.showAppearanceSwitcher` | `false` | Whether or not to show the appearance switcher in the site footer. The browser's local storage is used to persist the visitor's preference.                                                                               |
 | `footer.showScrollToTop`        | `true`  | When set to `true` the scroll to top arrow is displayed.                                                                                                                                                                  |
+
 ### Homepage
 
 | Name                            | Default     | Description                                                                                                                                                                                                                                                                                                        |
@@ -211,6 +214,7 @@ Many of the article defaults here can be overridden on a per article basis by sp
 | `homepage.cardView`             | `false`     | Display recent articles as a gallery of cards.                                                                                                                                                                                                                                                                     |
 | `homepage.cardViewScreenWidth`  | `false`     | Enhance the width of the recent articles card gallery to take the full width available.                                                                                                                                                                                                                            |
 | `homepage.layoutBackgroundBlur` | `false`     | Makes the background image in the homepage layout blur with the scroll                                                                                                                                                                                                                                             |
+
 ### Article
 
 | Name                                  | Default   | Description                                                                                                                                                                                                                                                                                                            |
@@ -237,13 +241,13 @@ Many of the article defaults here can be overridden on a per article basis by sp
 | `article.invertPagination`            | `false`   | Whether or not to flip the direction of the next/previous article links.                                                                                                                                                                                                                                               |
 | `article.showReadingTime`             | `true`    | Whether or not article reading times are displayed.                                                                                                                                                                                                                                                                    |
 | `article.showTableOfContents`         | `false`   | Whether or not the table of contents is displayed on articles.                                                                                                                                                                                                                                                         |
-| `article.showRelatedContent`          | `false`   | Display related content for each post. Might required additional configuration to your `config.toml`. Please check the theme `config.toml` if you want to enable this feature and copy all the relevant *related* entries. Also check [Hugo's docs](https://gohugo.io/content-management/related/) on related content. |
-| `article.relatedContentLimit`         | `3`       | Limit of related articles to display if `      showRelatedContent` is turned on.                                                                                                                                                                                                                                       |
+| `article.showRelatedContent`          | `false`   | Display related content for each post. Might required additional configuration to your `config.toml`. Please check the theme `config.toml` if you want to enable this feature and copy all the relevant _related_ entries. Also check [Hugo's docs](https://gohugo.io/content-management/related/) on related content. |
+| `article.relatedContentLimit`         | `3`       | Limit of related articles to display if `showRelatedContent` is turned on.                                                                                                                                                                                                                                       |
 | `article.showTaxonomies`              | `false`   | Whether or not the taxonomies related to this article are displayed.                                                                                                                                                                                                                                                   |
 | `article.showAuthorsBadges`           | `false`   | Whether the `authors` taxonomies are are displayed in the article or list header. This requires the setup of `multiple authors` and the `authors` taxonomy. Check [this page]({{< ref "multi-author" >}}) for more details on how to configure that feature.                                                           |
 | `article.showWordCount`               | `false`   | Whether or not article word counts are displayed.                                                                                                                                                                                                                                                                      |
 | `article.showComments`                | `false`   | Whether or not the [comments partial]({{< ref "partials#comments" >}}) is included after the article footer.                                                                                                                                                                                                           |
-| `article.sharingLinks`                | _Not set_ | Which sharing links to display at the end of each article. When not provided, or set to `false` no links will be displayed.  Available values are: "linkedin", "twitter", "reddit", "pinterest", "facebook", "email", "whatsapp", and "telegram"                                                                       |
+| `article.sharingLinks`                | _Not set_ | Which sharing links to display at the end of each article. When not provided, or set to `false` no links will be displayed.  Available values are: "linkedin", "bluesky", "mastodon", "twitter", "reddit", "pinterest", "facebook", "email", "whatsapp", and "telegram"                                                                       |
 | `article.showZenMode`                 | `false`   | Flag to activate Zen Mode reading feature for articles.                                                                                                                                                                                                                                                                |
 
 ### List
@@ -285,6 +289,7 @@ Many of the article defaults here can be overridden on a per article basis by sp
 | `taxonomy.showLikes`           | `false`   | Whether or not article likes are displayed. This requires firebase integrations to be enabled, look below. |
 | `taxonomy.showTableOfContents` | `false`   | Whether or not the table of contents is displayed on taxonomies.                                           |
 | `taxonomy.cardView`            | `false`   | Display lists as a gallery of cards.                                                                       |
+
 ### Term
 
 | Name                       | Default   | Description                                                                                                |
@@ -298,6 +303,7 @@ Many of the article defaults here can be overridden on a per article basis by sp
 | `term.groupByYear`         | `false`   | Whether or not articles are grouped by year on term pages.                                                 |
 | `term.cardView`            | `false`   | Display lists as a gallery of cards.                                                                       |
 | `term.cardViewScreenWidth` | `false`   | Enhance the width of card galleries in lists to take the full width available.                             |
+
 ### Firebase
 
 | Name                         | Default   | Description                                                                                                                                                                 |
@@ -324,6 +330,7 @@ Many of the article defaults here can be overridden on a per article basis by sp
 | `umamiAnalytics.websiteid` | _Not set_ | The site code generated by Umami Analytics for the website. Refer to the [Analytics docs]({{< ref "partials#analytics" >}}) for more details.      |
 | `umamiAnalytics.domain`    | _Not set_ | If using a custom domain with Umami Analytics, provide it here to serve `script.js` from the custom domain.                                        |
 | `umamiAnalytics.dataDomains`    | _Not set_ | If you want the tracker to only run on specific domains, provide it for your tracker script. This is a comma delimited list of domain names. Such as "yoursite.com,yoursite2.com". |
+| `umamiAnalytics.scriptName` | script.js | The name of the `script.js` used for anti-ad-blocking is configured by the environment variable `TRACKER_SCRIPT_NAME` |
 | `umamiAnalytics.enableTrackEvent`    | true      | When set to `true` track event will add automatically. If you do not want to add track event, set it to `false`.                                                            |
 
 ### Seline Analytics
@@ -342,6 +349,7 @@ Many of the article defaults here can be overridden on a per article basis by sp
 | `buymeacoffee.globalWidgetMessage`  | _Not set_ | Message what will be displayed the first time a new user lands on the site. |
 | `buymeacoffee.globalWidgetColor`    | _Not set_ | Widget color in hex format.                                                 |
 | `buymeacoffee.globalWidgetPosition` | _Not set_ | Position of the widget, i.e. "Left" or "Right"                              |
+
 ### Verifications
 
 | Name                     | Default   | Description                                                                             |
@@ -351,6 +359,13 @@ Many of the article defaults here can be overridden on a per article basis by sp
 | `verification.pinterest` | _Not set_ | The site verification string provided by Pinterest to be included in the site metadata. |
 | `verification.yandex`    | _Not set_ | The site verification string provided by Yandex to be included in the site metadata.    |
 <!-- prettier-ignore-end -->
+
+## RSSNext
+
+| Name                     | Default   | Description                                                                                                                          |
+| ------------------------ | --------- |--------------------------------------------------------------------------------------------------------------------------------------|
+| `rssnext.feedId`    | _Not set_ | The rss `feedId` string provided by [RSSNext/Follow](https://follow.is/) to be included in the `rss.xml`, which can helps to claim rss feed as your own. |
+| `rssnext.userId`      | _Not set_ | The rss `userId` string provided by [RSSNext/Follow](https://follow.is/) to be included in the `rss.xml`, which can helps to claim rss feed as your own.     |
 
 ## Other configuration files
 
