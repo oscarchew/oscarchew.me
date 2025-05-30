@@ -12,7 +12,7 @@ dateFormat = "2 January 2006"
 
 [params.author]
 name = "Oscar Chew"
-headline = "Machine Learning Engineer"
+headline = ""
 image = "img/profile.jpeg"
 imageQuality = 100
 # bio = "A little bit about you"
