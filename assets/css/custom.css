@@ -1,3 +1,9 @@
 html {
     font-size: 11pt;
 }
+.dark {
+    body {
+        background-color: #141d2f; /* Dark background */
+        color: seashell; /* Optional: light text color for contrast */
+    }
+}
