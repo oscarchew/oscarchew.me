@@ -15,7 +15,7 @@ Reach me at: `oscarchew@tamu.edu`
 
 🗞️ News
 ---
-<b> Jun 2025: </b> Our paper on knowledge graph question answering has been accepted by ACL 2025 SRW.
+<b> Jun 2025: </b> Our paper on knowledge graph question answering has been accepted by ACL 2025 SRW. <br>
 <b> Mar 2025: </b> I will be starting my Ph.D. at the [FLAIR Lab](https://khhuang.me/group.html), Texas A&M University this fall! <br>
 
 <!--
