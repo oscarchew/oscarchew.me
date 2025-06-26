@@ -1,8 +1,5 @@
 <div style="text-align: left">
 
-<!-- Hi there! I am a Research Engineer at ASUS Singapore. My research focuses on developing trustworthy NLP and multimodal models by addressing challenges in robustness and interpretability.
-I received both my M.S. and B.S. in Computer Science and Information Engineering from National Taiwan University, where I worked with [Prof. Hsuan-Tien Lin](https://www.csie.ntu.edu.tw/~htlin/) and [Prof. Kuan-Hao Huang](https://khhuang.me). -->
-
 Hi there! I’m an incoming Ph.D. student in Computer Science at Texas A&M University, advised by [Prof. Kuan-Hao Huang](https://khhuang.me). My research focuses on **trustworthy natural language processing and multimodal learning**, particularly addressing challenges in robustness and interpretability for large language and vision-language models. Prior to starting my Ph.D., I worked as a Research Engineer at ASUS Singapore, gaining industry experience in AI research. I received both my M.S. and B.S. in Computer Science and Information Engineering from National Taiwan University, where I was advised by [Prof. Hsuan-Tien Lin](https://www.csie.ntu.edu.tw/~htlin/).
 
 </div>
@@ -15,8 +12,9 @@ Reach me at: `oscarchew@tamu.edu`
 
 🗞️ News
 ---
+<b> Jun 2025: </b> Our paper on defect generation has been accepted by ICCV 2025. <br>
 <b> Jun 2025: </b> Our paper on knowledge graph question answering has been accepted by ACL 2025 SRW. <br>
-<b> Mar 2025: </b> I will be starting my Ph.D. at the [FLAIR Lab](https://khhuang.me/group.html), Texas A&M University this fall! <br>
+<b> Mar 2025: </b> I will be starting my Ph.D. at the [FLAIR Lab](https://khhuang.me/group.html), Texas A&M University this August! <br>
 
 <!--
 <details>
