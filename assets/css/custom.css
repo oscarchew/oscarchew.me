@@ -1,5 +1,28 @@
+@font-face {
+    font-family: "Inter";
+    src: url("/fonts/InterVariable.woff2") format("woff2");
+    font-weight: 100 900;
+    font-display: swap;
+}
+em,
+i {
+    letter-spacing: -0.005em; /* Less tight than body */
+    font-style: italic;
+}
+strong,
+b {
+    font-weight: 630;
+    letter-spacing: -0.005em;
+}
+h1,
+h2,
+h3 {
+    font-weight: 780;
+}
 html {
+    font-family: "Inter", system-ui;
     font-size: 11pt;
+    letter-spacing: -0.012em;
 }
 .dark {
     body {
