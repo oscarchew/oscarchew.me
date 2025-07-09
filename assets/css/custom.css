@@ -9,9 +9,6 @@ i {
     letter-spacing: -0.005em; /* Less tight than body */
     font-style: italic;
 }
-a {
-    font-weight: 450;
-}
 strong,
 b {
     font-weight: 600;
