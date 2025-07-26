@@ -13,7 +13,7 @@ layout: "simple"
 Ruyi Xu, Yen-Tzu Chiu, Tai-I Chen, **Oscar Chew**, Yung-Yu Chuang, Wen-Huang Cheng\
 _International Conference on Computer Vision (ICCV 2025)_
 
-[The Role of Exploration Modules in Small Language Models for Knowledge Graph Question Answering]()\
+[The Role of Exploration Modules in Small Language Models for Knowledge Graph Question Answering](https://aclanthology.org/2025.acl-srw.67/)\
 Yi-Jie Cheng, **Oscar Chew**, Yun-Nung Chen\
 _ACL 2025 Student Research Workshop_
 
