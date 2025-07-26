@@ -32,6 +32,7 @@ Reach me at: `oscarchew@tamu.edu`
 
 🎓 Education
 ---
+<b>Ph.D.</b>, Computer Science, Texas A&M University, Aug 2025 - Present <br>
 <b>M.S.</b>, Computer Science and Information Engineering, National Taiwan University, Sep 2021 - Jun 2023 <br>
 <b>B.S.</b>, Computer Science and Information Engineering, National Taiwan University, Sep 2017 - Jun 2021
 
