@@ -1,6 +1,6 @@
 <div style="text-align: left">
 
-Hi there! I’m an incoming Ph.D. student in Computer Science at Texas A&M University, advised by [Prof. Kuan-Hao Huang](https://khhuang.me). My research focuses on **trustworthy natural language processing and multimodal learning**, particularly addressing challenges in robustness and interpretability for large language and vision-language models. Prior to starting my Ph.D., I worked as a Research Engineer at ASUS Singapore, gaining industry experience in AI research. I received both my M.S. and B.S. in Computer Science and Information Engineering from National Taiwan University, where I was advised by [Prof. Hsuan-Tien Lin](https://www.csie.ntu.edu.tw/~htlin/).
+Hi there! I’m a Ph.D. student in Computer Science at Texas A&M University, advised by [Prof. Kuan-Hao Huang](https://khhuang.me). My research focuses on **trustworthy natural language processing and multimodal learning**, particularly addressing challenges in robustness and interpretability for large language and vision-language models. Prior to starting my Ph.D., I worked as a Research Engineer at ASUS Singapore, gaining industry experience in AI research. I received both my M.S. and B.S. in Computer Science and Information Engineering from National Taiwan University, where I was advised by [Prof. Hsuan-Tien Lin](https://www.csie.ntu.edu.tw/~htlin/).
 
 </div>
 
